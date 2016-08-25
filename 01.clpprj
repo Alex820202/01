@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\Server\OpenServer\domains\php-2.dz.local\01\01.clpprj">
-	<settings><PM_URL><![CDATA[http://php-2.dz/01/]]></PM_URL><PM_HOME_URL><![CDATA[http://php-2.dz/01/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\01.clpprj"/>
+	<settings><PM_URL><![CDATA[http://php-2.dz.local/01/]]></PM_URL><PM_HOME_URL><![CDATA[http://php-2.dz.local/01/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\index.php"/>
+		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\autoload.php"/>
+		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\App\Model.php"/>
+		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 	</errors>
 	<codestructure version="5.8">
 		<phptree>
-			<treenode node="Db;PHP:Class Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f0;3;1;24;;;;vpos;;v;;r;;d9,3;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f8;6;2;8;;;;vpos;;v;;r;;d31,6;;b1,0;;m">
-				</treenode>
-				<treenode node="execute;PHP:Function Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f8;10;2;14;;;;vpos;;v;;r;;d30,10;;b1,0;;msql;;p">
-					<treenode node="sql;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f25;10;29;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Db;PHP:Class Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f0;3;1;26;;;;vpos;;v;;r;;d9,3;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f8;7;2;10;;;;vpos;;v;;r;;d31,7;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f2;8;7;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="query;PHP:Function Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f8;16;2;23;;;;vpos;;v;;r;;d36,16;;b1,0;;msql;;pclass;;p">
-					<treenode node="class;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f29;16;35;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="execute;PHP:Function Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f8;12;2;16;;;;vpos;;v;;r;;d41,12;;b1,0;;msql;;pparam;;p">
+					<treenode node="param;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f31;12;37;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="sql;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f23;16;27;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="res;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f2;14;6;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f25;12;29;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sth;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f2;13;6;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f9;13;14;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="query;PHP:Function Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f8;18;2;25;;;;vpos;;v;;r;;d47,18;;b1,0;;msql;;pclass;;pparam;;p">
+					<treenode node="class;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f29;18;35;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="param;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f37;18;43;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="res;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f2;20;6;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f23;18;27;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sth;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f2;19;6;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f9;19;14;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="dbh;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f11;4;15;4;;;;vpos;;v;;r;;d-1,-1;;b2,0;;m">
+				</treenode>
+				<treenode node="param;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php;f8;5;14;5;;;;vpos;;v;;r;;d-1,-1;;b1,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="Model;PHP:Class Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Model.php;f9;3;1;13;;;;vpos;;v;;r;;d21,3;;b0,0;;m">
 				<treenode node="TABLE;PHP:PHP Word;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Model.php;f6;4;12;4;;;;vpos;;v;;r'';;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="findAll;PHP:Function Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Model.php;f15;6;2;12;;;;vpos;;v;;r;;d33,6;;b1,5;;m">
+					<treenode node="db;PHP:Var Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Model.php;f2;7;5;7;;;;vposDb;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 			</treenode>
 			<treenode node="User;PHP:Class Name;C:\Server\OpenServer\domains\php-2.dz.local\01\App\Models\User.php;f0;5;1;13;;;;vpos;;vModel;;c;;r;;d0,6;;b0,0;;m">
@@ -60,13 +85,11 @@
 	</yiidata>
 	<todoblock>
 	</todoblock>
-	<dbgurls>
-	</dbgurls>
 	<filescache>
 		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\App\Models\User.php" crc="1471429846"/>
 		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\App\Model.php" crc="1471432272"/>
-		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php" crc="1471335105"/>
-		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\index.php" crc="1471858823"/>
+		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\App\Db.php" crc="1471861621"/>
+		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\index.php" crc="1471861727"/>
 		<file name="C:\Server\OpenServer\domains\php-2.dz.local\01\autoload.php" crc="1470646091"/>
 	</filescache>
 </project>
